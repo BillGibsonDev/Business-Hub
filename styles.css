@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    height: 20vh;
+    text-align: center;
+    margin: auto;
+}
+
+.title-container h1 {
+    font-size: 3em;
+}
+
+.title-container h2 {
+    font-size: 1.5em;
+    color: rgb(87, 87, 87);
+}
+
+.input-container {
+    height: 10vh;
+}
+
+.input-container input {
+    width: 200px;
+}
+
+.input-container button {
+    width: 50px;
+    height: 20px;
+}
+
+.list-container {
+    height: 100%;
+}
+
+.list-container a {
+    color: black;
+    font-size: 2em;
+}
+
+.list-container a:hover {
+    color: rgb(22, 0, 223);
+    font-weight: 700;
+    transition: 0.3s;
+}
