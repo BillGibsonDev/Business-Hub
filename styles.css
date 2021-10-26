@@ -72,26 +72,39 @@ body {
 .list-container {
     height: 100%;
     display: flex;
+    width: 30%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.list-container a {
-    color: black;
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: rgb(243, 243, 243);
+    border-radius: 12px;
+    padding: 0 6px;
+}
+
+.link a {
     font-size: 2em;
 }
 
-.list-container a:hover {
-    color: rgb(22, 0, 223);
-    transition: 0.5s ease;
+.link a:hover {
+    font-size: 2em;
+    transform: rotateZ(10deg);
+}
+
+.link .link-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .trash-btn {
-    font-size: 1em;
+    font-size: 1.5em;
     cursor: pointer;
-}
-
-.link-button {
-    display: none;
+    margin-left: 10px;
 }
