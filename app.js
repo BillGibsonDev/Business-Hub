@@ -11,6 +11,7 @@ const showAddButton = document.querySelector(".show-add-button");
 addButton.addEventListener("click", addLink);
 showAddButton.addEventListener("click", showInput);
 
+
 // functions
 function addLink(e) {
   e.preventDefault();
@@ -49,13 +50,22 @@ function addLink(e) {
    colorInput.value = "";
 }
 
+// save to local
+
+
+// create locally saved links
+
+
+
+
+// delete
 function deleteLink(e) {
   const item = e.target;
   const link = item.parentElement.parentElement.parentElement; // lol
   link.remove();
 };
 
-
+// show / hide add link container
 function showInput() {
   const inputContainer = document.querySelector(".input-container");
   if (inputContainer.style.display === "flex") {
